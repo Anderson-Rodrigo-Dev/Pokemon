@@ -1,0 +1,34 @@
+@media (max-width: 740px) {
+    .logo {
+        width: 500px;
+        margin-bottom: 50px;
+    }    
+    .container .lista-pokemons {
+        width: 450px;
+    }
+}
+
+@media (max-width: 540px) {
+    .cabecalho .logo {
+        width: 300px;
+    }
+
+    .cabecalho select {
+        right: 70px;
+    }
+}
+
+@media (max-width: 460px) {
+    
+    .cabecalho .logo {
+        width: 250px;
+    }
+    
+    .cabecalho select {
+        right: 90px;
+    }
+
+    .container .lista-pokemons {
+        width: 200px;
+    }   
+}
