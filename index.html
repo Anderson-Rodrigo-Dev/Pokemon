@@ -5,31 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Document</title>
+    <title>Pokedex</title>
 
     <link rel="stylesheet" href="./src/css/reset.css" />
     <link rel="stylesheet" href="./src/css/style.css" />
     <link rel="stylesheet" href="./src/css/types.css" />
-    <link rel="stylesheet" href="./src/css/media.css"
+    <link rel="shortcut icon" href="./src/images/favicon.ico" type="image/x-icon">
   </head>
   <body>
     <header class="cabecalho">
       <a href="index.html"
-        ><picture>
-          <!-- <source srcset="./src/images/pokemon-logo-mobile.png" media="(max-width: 670px)"> -->
-          <img
-            src="./src/images/pokemon-logo.png"
-            alt="logo pokemon"
-            class="logo"
-          /> </picture
-      ></a>
+        ><img src="./src/images/pokemon-logo.png" alt="logo pokemon" class="logo"/> </a>
 
       <select name="select" id="select">
-        <optgroup label="filtrar por:">
-          <option value="ordem-pokedex">ordem pokedex</option>
-          <option value="ordem-alfabetica">ordem alfabetica</option>
-          <option value="tipos">tipo</option>
-        </optgroup>
+        <option hidden disabled selected>filtrar por:</option>
+        <option value="ordem-pokedex">ordem pokedex</option>
+        <option value="ordem-alfabetica">ordem alfabetica</option>
+        <option value="tipos">tipo</option>
       </select>
     </header>
 
