@@ -32,9 +32,7 @@ async function acessandoPokemon() {
 
 
  function filtrandoPokemons(limparLista = false) {
-  let pokemonsFiltrados = Array.from(listaPokemons) 
-  console.log(listaPokemons)
-  
+  let pokemonsFiltrados = Array.from(listaPokemons)
 
   if (select.value == "ordem-alfabetica") {
     pokemonsFiltrados.sort(function (a, b) {
@@ -52,7 +50,7 @@ async function acessandoPokemon() {
     acumulador += `
             <li class="card ${tipos[0]}" id="card">
                 <img class="card-image" alt="${pokemon.name}" src="${
-      pokemon.sprites.front_default
+      pokemon.sprites.other.home.front_default
     }" />
                 <h2 class="card-title">${pokemon.id}. ${pokemon.name}</h2>
                 <p class="card-subtitle">${tipos.join(" | ")}</p>
